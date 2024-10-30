@@ -1,0 +1,286 @@
+#adminContainer {
+  position: absolute; /* Parent container has been set to relative */
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers children vertically */
+  align-items: center; /* Centers children horizontally */
+  background-color: aqua;
+  width: 100%;
+  height: 100%;
+  max-width: 750px; /* Optional: limit width */
+  margin: 0 auto; /* Centers container if there's a max-width */
+}
+
+#adminContainer #adminHeadingContainer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+}
+
+#adminHeadingContainer h2{
+  margin: 3px 0 5px 0;
+  font-size: 1.4rem; /* Adjust font size */
+}
+
+#adminContainer #adminFormContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100%;
+}
+
+#adminFormContainer #adminNameClubContainer {
+  display: flex;
+  gap: 10px;
+}
+
+#adminNameClubContainer #adminNameAvailabilityContainer {
+  display: flex;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 0 8px 0 8px;
+  border-radius: 8px;
+  width: 55%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.625rem;
+  margin-left: 5px;
+}
+
+#adminNameAvailabilityContainer input{
+  width: 100px;
+}
+
+#adminNameAvailabilityContainer #adminAvailabilityContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.8rem;
+}
+
+/* CLUB SIDE */
+#adminNameClubContainer #clubSideContainer {
+  border: 1px solid #ccc; /* Light border around the box */
+  width: 45%;
+  margin-right: 5px;
+  padding: 0 4px 4px 0; /* Space inside the box */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background for contrast */
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Adds spacing between each checkbox */
+  justify-content: space-evenly; 
+}
+
+#clubSideContainer > h4 {
+  text-align: center;
+  margin: 0;
+}
+
+#clubSideContainer #clubSideRadioButtons {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-wrap: wrap;
+  justify-content: space-evenly; 
+  font-size: 0.8rem;
+}
+
+#clubSideRadioButtons .clubSideRadioButtonItem{
+  display: flex;
+}
+
+.clubSideRadioButtonItem label {
+  display: flex; /* Make label a flex container */
+  align-items: center; /* Align items vertically in the center */
+}
+
+.clubSideRadioButtonItem label:hover{
+  color: blue;
+}
+
+/* Change the label style when the associated radio button is checked */
+.clubSideRadioButtonItem input[type="radio"]:checked + label {
+  font-style: italic; /* Italicize text */
+  color: crimson; /* Change text color when checked (optional) */
+}
+
+/* PLAYER POSITIONS */
+#adminFormContainer #positionContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc; /* Light border around the box */
+  padding: 4px; /* Space inside the box */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #f9f9f9; /* Light background for contrast */
+  margin: 5px; /* Space around the box */
+}
+
+#positionContainer h4{
+  padding: 4px;
+  margin: 0 0;
+}
+
+#positionContainer #positionsTwoContainer{
+  display: flex;
+}
+
+#positionContainer #positionForContainer{
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed darkgray;
+  border-radius: 8px;
+  width: 45%;
+  padding: 10px;
+}
+
+#positionContainer #positionBacContainer
+{
+  display: flex;
+  flex-direction: column;
+  border: 1px dashed darkgray;
+  border-radius: 8px;
+  width: 55%;
+  padding: 10px;
+}
+
+#positionContainer #positionForContainer h5,
+#positionContainer #positionBacContainer h5
+{
+  margin: 0 0 10px 0;
+}
+
+#positionForContainer .positionCheckboxes,
+#positionBacContainer .positionCheckboxes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* Adds spacing between each checkbox */
+  justify-content: space-evenly; 
+  font-size: 0.8rem;
+}
+
+.positionCheckboxes label:hover{
+  color: blue;
+}
+
+/* Change the label style when the associated radio button is checked */
+.positionCheckboxes input[type="checkbox"]:checked + label {
+  font-style: italic; /* Italicize text */
+  color: orangered; /* Change text color when checked (optional) */
+}
+
+/* SUBMIT */
+#adminFormContainer #addNewPlayerBtnContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 40%;
+  margin-bottom: 5px;
+}
+
+#addNewPlayerBtnContainer #adminSubmitBtn {
+  text-align: center;
+  width: 30%;
+  border-radius: 6px;
+ }
+
+ #addNewPlayerBtnContainer #adminSubmitBtn:hover {
+  background-color: gray;
+  color: white;
+ }
+
+/* TABLE */
+#adminContainer #adminLastPlayerTableContainer{
+  background-color: #f9f9f9;
+  border-radius: 6px;
+  border: 1px solid #8d1b1b;
+  width: 70%;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#adminContainer #adminTableContainer {
+  background-color: #eee4e4;
+  border-radius: 6px;
+  border: 1px solid rgb(23, 145, 29);
+  width: 70%; 
+  padding: 5px;
+  flex-grow: 1;  /* Fills remaining space in #adminContainer */
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#adminTable,
+#adminTableLastPlayer {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+#adminTable caption,
+#adminTableLastPlayer caption {
+  padding: 5px;
+}
+  
+#adminTable th,
+#adminTableLastPlayer th {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#adminTable td,
+#adminTableLastPlayer td {
+  border: 1px solid #ddd;
+  padding: 2px;
+  font-size: 0.625rem;
+  text-align: center;
+}
+
+/* Set specific widths for each column */
+#adminTable .nameColumn,
+#adminTableLastPlayer .nameColumn {
+  width: 25%; 
+}
+#adminTable .clubsideColumn,
+#adminTableLastPlayer .clubsideColumn {
+  width: 22%; 
+}
+#adminTable .positionColumn,
+#adminTableLastPlayer .positionColumn {
+  width: 25%; 
+}
+#adminTable .availableColumn,
+#adminTableLastPlayer .availableColumn {
+  width: 20%; /* Available column */
+}
+
+#adminTable tr:hover {
+  background-color: #94af7b;
+}
+
+/* Selected row styling */
+#adminTable tr.selected {
+  background-color: #9aa1ce; /* Customize this color as you like */
+}

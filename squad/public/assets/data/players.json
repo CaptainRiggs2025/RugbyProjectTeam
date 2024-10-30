@@ -1,0 +1,378 @@
+[
+  {
+    "id": "FReqs_7TJiPJlINCg8ZE9",
+    "firstName": "Tyrel",
+    "lastName": "Lomax",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Prop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "o1PYzNEDb2Y9s0_GVigvP",
+    "firstName": "Ofa",
+    "lastName": "Tu'ungafasi",
+    "clubSide": "Blues",
+    "positions": [
+      "Prop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "g6j947aLP42WRF1CnPNkP",
+    "firstName": "Fletcher",
+    "lastName": "Newell",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Prop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "Q9dCMzp1zrG72qQkw-WQQ",
+    "firstName": "Pasilio",
+    "lastName": "Tosi",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Prop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "oN6Cd0QYCFAjCgPnebnEX",
+    "firstName": "Asafo",
+    "lastName": "Aumua",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Hooker"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "zgUUux3is6MUuQj4xTuL0",
+    "firstName": "Codie",
+    "lastName": "Taylor",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Hooker"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "zJplJo78VcVJ49VoTvZaG",
+    "firstName": "George",
+    "lastName": "Bell",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Hooker"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "9Fgn5z9WGPpFN_k4qIQlB",
+    "firstName": "Scott",
+    "lastName": "Barrett",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Lock"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "oIV7BzgYa9MfGvO-h9dXy",
+    "firstName": "Patrick",
+    "lastName": "Tuipulotu",
+    "clubSide": "Blues",
+    "positions": [
+      "Lock"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "hAoLXWC6jlTeX3GyetKQv",
+    "firstName": "Tupou",
+    "lastName": "Vaa'i",
+    "clubSide": "Chiefs",
+    "positions": [
+      "Lock"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "crd7_H0082kwuZocacWPy",
+    "firstName": "Sam",
+    "lastName": "Darry",
+    "clubSide": "Blues",
+    "positions": [
+      "Lock"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "ZC9S51nGY_NUzpN3pg3ok",
+    "firstName": "Ethan",
+    "lastName": "Blackadder",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Loose Forward"
+    ],
+    "availability": "Injuried"
+  },
+  {
+    "id": "NP0Y8OBY2NI3glSBjDdWr",
+    "firstName": "Dalton",
+    "lastName": "Papali'i",
+    "clubSide": "Blues",
+    "positions": [
+      "Loose Forward"
+    ],
+    "availability": "Injuried"
+  },
+  {
+    "id": "0jPXRRrxk10d_O98x4cOo",
+    "firstName": "Sam",
+    "lastName": "Cane",
+    "clubSide": "Chiefs",
+    "positions": [
+      "Loose Forward"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "Bc-FoO_bvPNMf2pfUhGL2",
+    "firstName": "Ardie",
+    "lastName": "Savea",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Loose Forward"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "Muci6LitcMqmIgI6BAdn1",
+    "firstName": "Wallace",
+    "lastName": "Sititi",
+    "clubSide": "Chiefs",
+    "positions": [
+      "Loose Forward"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "8KKt9CjwtXq5niRdsRZ2Z",
+    "firstName": "Cam",
+    "lastName": "Roigard",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Half Back"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "yvWdF1VRjdFaDMldbjiZ6",
+    "firstName": "Cortez",
+    "lastName": "Ratima",
+    "clubSide": "Chiefs",
+    "positions": [
+      "Half Back"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "fO9cLxE__FaA_i0cHR2np",
+    "firstName": "Jordie",
+    "lastName": "Barrett",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Midfielder"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "5yk-M4rNeci5n6S_Bln0y",
+    "firstName": "Rieko",
+    "lastName": "Ioane",
+    "clubSide": "Blues",
+    "positions": [
+      "Midfielder",
+      "Winger"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "2ha4FASaxCPbcJa9Lz3mt",
+    "firstName": "David",
+    "lastName": "Havili",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Midfielder"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "2hn9ksD1Cb5kFGdYb8SFC",
+    "firstName": "Billy",
+    "lastName": "Proctor",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Midfielder"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "GxeW315loSXyzQqhfJM-X",
+    "firstName": "Caleb",
+    "lastName": "Clarke",
+    "clubSide": "Blues",
+    "positions": [
+      "Winger"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "M1B9P8TOE_RbJBHRq8azR",
+    "firstName": "Will",
+    "lastName": "Jordan",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Winger",
+      "Full Back"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "lW4kgGbTD55lr0uUAu9S5",
+    "firstName": "Mark",
+    "lastName": "Telea",
+    "clubSide": "Blues",
+    "positions": [
+      "Winger"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "2UNw6mUex3kc8fosim2f0",
+    "firstName": "Sevu",
+    "lastName": "Reece",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Winger"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "SjIYmRv6D_kpDKsfzrhYM",
+    "firstName": "Ruben",
+    "lastName": "Love",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Full Back",
+      "Winger"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "QFdQj-mwKf-2JjFnEBK0E",
+    "firstName": "Peter",
+    "lastName": "Lakai",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Loose Forward"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "cV5XPg7-Lcv9jSVml3YAE",
+    "firstName": "Stephen",
+    "lastName": "Perofeta",
+    "clubSide": "Blues",
+    "positions": [
+      "Full Back",
+      "1st Five Eighths"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "QsI6WRhA90lTrGn5EgeU3",
+    "firstName": "Beauden",
+    "lastName": "Barrett",
+    "clubSide": "Blues",
+    "positions": [
+      "Full Back",
+      "1st Five Eighths"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "DSwpUVN_hefAozlZwxe-p",
+    "firstName": "Tamaiti",
+    "lastName": "Williams",
+    "clubSide": "Crusaders",
+    "positions": [
+      "Prop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "5M46AsPCbJ_wTeE8vBMz5",
+    "firstName": "Tj",
+    "lastName": "Peranara",
+    "clubSide": "Hurricanes",
+    "positions": [
+      "Half Back"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "n_VWcA0_NstSCscRAV-4T",
+    "firstName": "Anton",
+    "lastName": "Lienert-Brown",
+    "clubSide": "Chiefs",
+    "positions": [
+      "Midfielder"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "gD1Y8XZB7zsu6mqvc_ki7",
+    "firstName": "Josh",
+    "lastName": "Lord",
+    "clubSide": "Chiefs",
+    "positions": [
+      "Lock"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "e9oZY2iJ-mioC4gpzizUu",
+    "firstName": "Samipeni",
+    "lastName": "Finau",
+    "clubSide": "Chiefs",
+    "positions": [
+      "Loose Forward"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "GEJvc5OtDMTF9VG1o90Ox",
+    "firstName": "Ethan",
+    "lastName": "De Groot",
+    "clubSide": "Highlanders",
+    "positions": [
+      "Prop"
+    ],
+    "availability": "Available"
+  },
+  {
+    "id": "y0uKkJRQ_WtnpPDIFxIv1",
+    "firstName": "Damian",
+    "lastName": "Mckenzie",
+    "clubSide": "Chiefs",
+    "positions": [
+      "1st Five Eighths",
+      "Full Back"
+    ],
+    "availability": "Available"
+  }
+]

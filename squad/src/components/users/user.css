@@ -1,0 +1,99 @@
+#selectorContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: burlywood;
+    border-radius: 10px;
+}
+
+#selectorContainer  #selectorMainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#selectorContainer #selectorPlayersContainer {
+    width: 100%;
+    flex-grow: 1;
+    border: 1px solid rgb(26, 57, 192);
+    display: flex;
+    flex-direction: column;
+}
+
+#selectorPlayersContainer  #selectorForwardsContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 8px solid rgb(184, 88, 24);
+    background-color: aqua;
+}
+
+#selectorPlayersContainer #selectorBacksContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 8px solid rgb(52, 9, 133);
+    background-color: rgb(132, 218, 83);
+}
+
+#selectorPlayersContainer #selectorBenchContainer {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(56, 166, 180);
+}
+
+#selectorForwardsContainer .selectionTitleOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px; /* Space between each option */
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.selectionTitleOptions h4 {
+    margin: 0; /* Removes default margin for a cleaner look */
+    margin-bottom: 5px; /* Adds space between the title and dropdown */
+}
+
+#selectorForwardsContainer #Prop-1 {
+    top: 15%;
+    left: 30%; 
+}
+
+#selectorForwardsContainer #Hooker-2 {
+    top: 15%;
+    left: 50%;
+}
+
+#selectorForwardsContainer #Prop-3 {
+    top: 15%;
+    left: 70%; 
+}
+
+#selectorForwardsContainer #Lock-4 {
+    top: 30%;
+    left: 40%; 
+}
+
+#selectorForwardsContainer #Lock-5 {
+    top: 30%;
+    left: 60%;
+}
+
+#selectorForwardsContainer #LooseForward-6 {
+    top: 45%;
+    left: 28%; 
+}
+
+#selectorForwardsContainer #LooseForward-7 {
+    top: 45%;
+    left: 72%; 
+}
+
+#selectorForwardsContainer #LooseForward-8 {
+    top: 60%;
+    left: 50%; 
+}

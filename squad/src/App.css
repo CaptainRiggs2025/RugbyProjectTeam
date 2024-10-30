@@ -1,0 +1,142 @@
+/* General styles for the app */
+.App {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  width: min(750px, 90vw); 
+  height: 97vh;
+  overflow: hidden; /* Ensure content that slides offscreen is hidden */
+  border: 1px solid #ddd;
+  border-radius: 0.625rem;
+}
+
+/* Common view styles */
+.App .mainViewContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f2f2f2;
+  transition: transform 0.5s ease; /* Smooth transition for the sliding effect */
+}
+
+/* Default transform to move the views off-screen */
+.mainViewContainer:not(.active) {
+  transform: translateY(100%);
+}
+
+/* When the view is active, it is in place */
+.mainViewContainer.active {
+  transform: translateY(0); /* Moves the active view into focus */
+}
+
+/* To align the button elements */
+.mainViewContainer #homeViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainViewContainer #homeViewContainer,
+.mainViewContainer #adminViewContainer {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+.mainViewContainer #homeViewContainer{
+  background-color: rgb(29, 29, 25);
+}
+
+.mainViewContainer #adminViewContainer{
+  position: relative;
+  background-color: rgb(58, 58, 28);  /* Just to confirm size for CSS coding */ 
+}
+
+/* SELECTORS CONTAINER */
+#adminUsersContainer{
+  width: 100%;
+  height: 100%;
+}
+
+/* Button styling */
+.mainViewContainer .big-btn {
+  padding: 1.25rem;
+  width: 200px;
+  font-size: 1.125rem;
+  margin: 0.625rem;
+  cursor: pointer;
+  border: 2px solid #333;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.big-btn:hover, .back-btn:hover {
+  background-color: #dad0d0;
+}
+
+/* Back button styles */
+.mainBackBtn {
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  padding: 0.3rem 0.5rem; /* Adjust padding for better click area */
+  font-size: 0.8rem; /* Responsive font size */
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+/* -------------- RESPONSIVE ----------------------------------*/
+/* Medium screen adjustments */
+@media (max-width: 1024px) {
+  .App {
+    width: 90vw; /* Slightly larger width than for small screens */
+    height: 90vh; /* Maintain or adjust as necessary */
+    padding: 0.8rem; /* Consistent padding */
+    border-radius: 0.5rem; /* Consider keeping it consistent */
+  }
+
+  .mainViewContainer #homeViewContainer,
+  .mainViewContainer #adminViewContainer {
+    padding: 15px; /* Adjust padding for medium screens */
+  }
+
+  .big-btn {
+    font-size: 18px; /* Slightly larger button font size */
+  }
+}
+
+/* Small screen adjustments */
+@media (max-width: 768px) {
+  .App {
+    width: 95vw;
+    height: 85vh;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .mainViewContainer #homeViewContainer,
+  .mainViewContainer #adminViewContainer {
+    padding: 10px; /* Add padding for smaller screens */
+  }
+  .big-btn {
+    font-size: 16px; /* Adjust button font size */
+  }
+
+  #adminContainer h2 {
+    font-size: 1.2rem; /* Smaller screens */
+    margin-bottom: 8px; /* Slightly larger margin for readability */
+  }
+
+  #adminContainer #adminTableContainer {
+    width: 90%; /* Allows more horizontal space on smaller screens */
+    padding: 8px; /* Reduces padding for tighter layouts */
+  }
+}
